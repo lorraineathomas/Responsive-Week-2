@@ -4,3 +4,34 @@ body {
   font-weight: 500;
   font-style: normal;
 }
+
+.container {
+  background-image: linear-gradient(
+    rgba(30, 30, 109, 0.4), 
+    rgba(129, 67, 67, 0.4)),
+    url("https://cdn.mos.cms.futurecdn.net/gxWm3asdF6AAe2rR9ziao8-1200-80.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  color: rgba(241, 237, 237, 0.65);
+}
+
+h4 {
+  color: rgba(11, 2, 2, 0.406);
+  text-align: center;
+}
+
+h3 {
+  color: rgba(241, 237, 237, 0.896);
+  text-align: center;
+}
+
+a .SeeExercises {
+  display: block;
+  margin: 0 auto;
+}
