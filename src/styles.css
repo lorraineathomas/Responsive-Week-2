@@ -37,5 +37,7 @@ a .SeeExercises {
 }
 
 footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
   background: url("https://cdn.media.amplience.net/i/hibbett/Presto_Cluster1280");
 }
