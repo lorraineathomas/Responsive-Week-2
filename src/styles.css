@@ -6,32 +6,34 @@ body {
 }
 
 .container {
-  display: block;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
   background-image: url("https://cdn.mos.cms.futurecdn.net/gxWm3asdF6AAe2rR9ziao8-1200-80.jpg");
   background-size: cover;
   margin: 0 auto;
   background-repeat: no-repeat;
-  height: 100%;
 }
 
-header {
-  display: block;
-}
-
-h1 {
+header h1 {
   font-size: 45px;
+  font-weight: 700;
   text-align: center;
   color: white;
   -webkit-text-stroke: 1px black;
 }
 
-h4 {
+h5 {
   color: white;
   text-align: center;
+  -webkit-text-stroke: 0.5px black;
 }
 
 h3 {
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -40,8 +42,12 @@ div .SeeExercises {
   margin: 0 auto;
   background: white; 
   text-align: center;
-  width: 25%;
+  width: 35%;
   border-radius: 5px;
+  color: black;
+}
+
+.exercise-link {
   color: black;
 }
 
@@ -60,10 +66,10 @@ div .inner-container {
 
 footer {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 12px;
   color: black;
-  --s: 31px; /* control the size*/
+  --s: 31px; 
   --c1: #b2b2b2;
   --c2: #ffffff;
   --c3: #d9d9d9;
@@ -79,9 +85,28 @@ footer {
 }
 
 footer a {
-  display: block;
   color: black;
   text-decoration: none;
 }
 
+footer div {
+  height: 90%;
+  padding-top: 0;
+}
 
+
+@media (max-width: 900px){
+  header {
+    display: block;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+}
