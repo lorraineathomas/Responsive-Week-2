@@ -6,12 +6,13 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
 }
 
 header {
+  display: block;
   background-image: url("https://cdn.mos.cms.futurecdn.net/gxWm3asdF6AAe2rR9ziao8-1200-80.jpg");
   background-size: cover;
   margin: 0 auto;
@@ -35,6 +36,7 @@ h5 {
 h3 {
   color: black;
   text-align: center;
+  font-size: 14px;
 }
 
 div .SeeExercises {
@@ -62,6 +64,15 @@ div .inner-container {
   margin: 5px;
   padding: 10px;
   opacity: 1 !important;
+}
+
+.content-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content-section img {
+  width: 75%;
 }
 
 footer {
