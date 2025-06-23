@@ -128,12 +128,14 @@ footer div {
     grid-template-columns: 1fr;
   }
 
-  section .right-section {
+  section {
+    display: block;
     width: 90%;
+    padding-bottom: 30px;
   }
 
-section .left-section {
-    width: 90%;
+  section img {
+    padding-top: 70px;
   }
 
   .image-section {
