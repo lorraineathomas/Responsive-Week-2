@@ -9,14 +9,14 @@ body {
   width: 90%;
   height: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 
 header {
   display: block;
-  background-image: url("https://cdn.mos.cms.futurecdn.net/gxWm3asdF6AAe2rR9ziao8-1200-80.jpg");
-  background-size: cover;
+  position: absolute;
   margin: 0 auto;
-  background-repeat: no-repeat;
+  text-align: center;
 }
 
 header h1 {
