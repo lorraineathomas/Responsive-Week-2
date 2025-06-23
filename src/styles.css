@@ -13,6 +13,10 @@ body {
   text-align: center;
 }
 
+img {
+  border-radius: 5px;;
+}
+
 .container img {
   display: block;
   margin: 0 auto;
@@ -31,11 +35,21 @@ div .SeeExercises {
 a .exercise-link {
   display: block;
   margin: 0 auto;
-  color: white;
+  color: #BB4C9C;
 }
 
 a {
 text-decoration: none;
+}
+
+.text-section {
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(228, 222, 222, 0.955);
+  margin-top: 20px;
 }
 
 div .inner-container {
@@ -47,14 +61,15 @@ div .inner-container {
   opacity: 1 !important;
 }
 
-.content-section {
+.image-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.content-section img {
+.image-section img {
   width: 75%;
   margin: 0 auto;
+  padding: 10px;
 }
 
 h3 {
