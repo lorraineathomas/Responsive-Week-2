@@ -42,6 +42,15 @@ a {
 text-decoration: none;
 }
 
+main {
+  border-radius: 10px;
+}
+
+section img {
+width: 90%;
+padding: 10px;
+}
+
 .text-section {
   border-radius: 5px;
   width: 90%;
