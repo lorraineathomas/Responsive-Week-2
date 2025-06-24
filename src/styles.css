@@ -26,16 +26,20 @@ img {
 div .SeeExercises {
   display: block;
   margin: 0 auto;
-  width: 90%;
+  text-align: center;
+  width: 150px;
   background-color: black;
   border-radius: 5px;
   color: white;
+  margin-top: 15px;
 }
 
-a .exercise-link {
+.exercise-link {
   display: block;
   margin: 0 auto;
   color: #BB4C9C;
+  padding: 20px;
+  font-weight: 800;
 }
 
 a {
@@ -83,12 +87,34 @@ div .inner-container {
   width: 75%;
   margin: 0 auto;
   padding: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 h3 {
-  color: black;
+  color: #BB4C9C;
   text-align: center;
   font-size: 14px;
+}
+
+div .card {
+  display: block;
+  background-color:white;
+  margin: 10px;
+  box-shadow: 5px 5px 5px rgb(39, 36, 36);
+  text-align: center;
+  width: 90%;
+}
+
+.card-a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background: black;
+  color: #BB4C9C;
+  font-weight: bolder;
+  width: 95%;
 }
 
 footer {
