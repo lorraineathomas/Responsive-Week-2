@@ -53,12 +53,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.vid-embeds {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 10px;
-}
-
 main {
   border-radius: 10px;
 }
@@ -132,6 +126,17 @@ div .card {
   text-transform: uppercase;
 }
 
+.vid-embeds {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+  }
+
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -187,4 +192,5 @@ footer div {
   .image-section img {
     width: 90%;
   }
+
 }
